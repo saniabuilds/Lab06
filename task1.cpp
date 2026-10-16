@@ -3,7 +3,9 @@ using namespace std;
 
 int main(){
     float a, b, c, d, r, result;
-    
+    if (b!=0){
+        cout<<a/b;
+    }
     cout << "Enter value for a: "<< endl;
     cin >> a;
     cout << "Enter value for b: "<< endl;
