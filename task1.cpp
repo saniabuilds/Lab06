@@ -14,6 +14,8 @@ int main(){
     cin >> d;
     cout << "Enter value for r: "<< endl;
     cin >> r;
+    //Following result is calculated using the precedence
+    
     result = (4.0 / (3.0 * (r + 34.0)))
        - 9.0 * (a + b * c)
        + ((3.0 + d * (2.0 + a)) / (a + b * d));
